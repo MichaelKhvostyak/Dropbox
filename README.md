@@ -1,5 +1,6 @@
 # Dropbox
-[15.07.2016 18:54:50] Robert: import org.openqa.selenium.By;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,9 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-/**
- * Created by MBCNEWMAIN on 12.07.2016.
- */
+
 public class Dropbox_tests implements Dropbox_variables {
 
     private static WebDriver driver;
@@ -114,16 +113,16 @@ public class Dropbox_tests implements Dropbox_variables {
     }
 
 }
-[15.07.2016 18:54:56] Robert: /**
- * Created by MBCNEWMAIN on 12.07.2016.
- */
+
+
+
 public interface Dropbox_variables {
 
     String LOGIN_PAGE = "https://www.dropbox.com/login";
     String LOGIN_INPUT = "input[name='login_email']";
     String PASSWORD_INPUT = "input[name='login_password']";
-    String USERNAME = "doron@skyfence.com";
-    String PASS = "1q1q1q";
+    String USERNAME = "boikiy@mail.ru";
+    String PASS = "123scarys123";
     String LOGIN_BUTTON = ".login-button";
     String FILE = "a[href='//www.dropbox.com/pri/get/billingccn2.docx?_subject_uid=283204911&w=AAC1YBt-Lc--ZUmOgQpm8a_8LUS8mwCm8UaYl2Fh5vx3vg']";
     String OPEN_FILE = ".share-button";
